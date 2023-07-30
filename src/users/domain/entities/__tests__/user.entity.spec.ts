@@ -34,6 +34,7 @@ describe('UserEntity unit tests', () => {
     expect(sut.props.password).toEqual(props.password);
     expect(typeof sut.props.password).toEqual('string');
   });
+
   it('Getter of created_at field', () => {
     expect(sut.props.created_at).toBeDefined();
     expect(sut.props.created_at).toBeInstanceOf(Date);
