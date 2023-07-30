@@ -27,7 +27,7 @@ describe('Entity unit tests', () => {
     expect(entity._id).toBe(id);
   });
 
-  it('Should convet entity to a Javascriot Object', () => {
+  it('Should convert entity to a Javascriot Object', () => {
     const props = { prop1: 'value1', prop2: 15 };
     const id = 'd1a6808b-b58d-4445-9f50-c6149ac82c56';
     const entity = new StubEntity(props, id);
